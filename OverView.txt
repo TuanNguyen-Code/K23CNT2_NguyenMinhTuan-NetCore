@@ -1,0 +1,10 @@
+Nội dung học phần .NET
+-Tổng quan .netcore / p.net core mvc
+-làm việc với view / lazer code
+-làm việc với model
+-validation / annotation
+-truy cập dữ liệu với entity framework
+-layout
+-session, cookie
+-authentication / authorization
+-Web API
