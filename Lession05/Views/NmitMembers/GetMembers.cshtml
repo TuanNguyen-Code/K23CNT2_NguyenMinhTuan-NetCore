@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "GetMembers";
+    //var member = ViewBag.member as Lession05.Models.NmitData.NmitModels;
+}
+
+<h1>GetMembers</h1>
+<div class="alert alert-info">
+    <h1>Thông Tin Member</h1>
+    <table border="1">
+        <tr>
+            <th>Member ID</th>
+            <th>UserName</th>
+            <th>FullName</th>
+            <th>PassWord</th>
+            <th>Email</th>
+        </tr>
+        @foreach( var m in ViewBag.member)
+        {
+            <tr>
+                <td>@m.NmitMemberId</td>
+                <td>@m.NmitUserName</td>
+                <td>@m.NmitFullName</td>
+                <td>@m.NmitPassword</td>
+                <td>@m.NmitEmail</td>
+            </tr>
+        }
+    </table>
+</div>
+
