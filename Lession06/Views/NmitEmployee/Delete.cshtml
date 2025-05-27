@@ -1,0 +1,30 @@
+﻿@model Lession06.Models.NmitEmployee
+
+@{
+    ViewData["Title"] = "Xóa nhân viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Bạn có chắc muốn xoá nhân viên sau?</h4>
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">Họ tên</dt>
+        <dd class="col-sm-9">@Model.NmitName</dd>
+
+        <dt class="col-sm-3">Email</dt>
+        <dd class="col-sm-9">@Model.NmitEmail</dd>
+
+        <dt class="col-sm-3">Điện thoại</dt>
+        <dd class="col-sm-9">@Model.NmitPhone</dd>
+
+        <dt class="col-sm-3">Lương</dt>
+        <dd class="col-sm-9">@Model.NmitSalary.ToString("N0") VNĐ</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="NmitId" />
+        <button type="submit" class="btn btn-danger">Xoá</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

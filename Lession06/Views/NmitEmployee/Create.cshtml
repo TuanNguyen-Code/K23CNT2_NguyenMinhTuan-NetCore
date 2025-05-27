@@ -1,0 +1,53 @@
+﻿@model Lession06.Models.NmitEmployee
+
+@{
+    ViewData["Title"] = "Thêm mới nhân viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="NmitName"></label>
+        <input asp-for="NmitName" class="form-control" />
+        <span asp-validation-for="NmitName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NmitBirthDay"></label>
+        <input asp-for="NmitBirthDay" class="form-control" type="date" />
+        <span asp-validation-for="NmitBirthDay" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NmitEmail"></label>
+        <input asp-for="NmitEmail" class="form-control" />
+        <span asp-validation-for="NmitEmail" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NmitPhone"></label>
+        <input asp-for="NmitPhone" class="form-control" />
+        <span asp-validation-for="NmitPhone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NmitSalary"></label>
+        <input asp-for="NmitSalary" class="form-control" />
+        <span asp-validation-for="NmitSalary" class="text-danger"></span>
+    </div>
+
+    <div class="form-group form-check">
+        <input asp-for="NmitStatus" class="form-check-input" />
+        <label asp-for="NmitStatus" class="form-check-label"></label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
