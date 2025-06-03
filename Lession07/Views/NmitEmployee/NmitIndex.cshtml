@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Lession07.Models.NmitEmployee>
+
+<p>
+    <a asp-action="NmitCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitBirthDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitStatus)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "NmitEdit", new { id = item.NmitId }) |
+                    @Html.ActionLink("Details", "NmitDetails", new { id = item.NmitId }) |
+                    @Html.ActionLink("Delete", "NmitDelete", new { id = item.NmitId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

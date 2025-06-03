@@ -78,8 +78,7 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:36:24.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:36:24.439Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Views\\NmitEmployee\\Create.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAcwCoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T02:16:18.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:16:18.45Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "Views\\NmitEmployee\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T02:13:29.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:13:29.423Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "Views\\NmitEmployee\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T02:13:17.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:13:17.655Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "Views\\NmitEmployee\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T01:54:44.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:54:44.432Z"
             },
             {
               "$type": "Document",
@@ -141,7 +136,7 @@
               "RelativeDocumentMoniker": "Controllers\\NmitEmployeeController.cs",
               "ToolTip": "C:\\K23CNT2-NMIT-NETCore\\K23CNT2_NguyenMinhTuan-NetCore\\Lession06\\Controllers\\NmitEmployeeController.cs",
               "RelativeToolTip": "Controllers\\NmitEmployeeController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwFUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T01:44:16.397Z",
               "EditorCaption": ""
@@ -156,8 +151,7 @@
               "RelativeToolTip": "Models\\NmitEmployee.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAzwBkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:43:27.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:43:27.391Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "Views\\Shared\\_NmitLayout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T01:26:54.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:26:54.224Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "Views\\NmitHome\\NmitAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T01:23:04.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:23:04.719Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "Views\\NmitHome\\NmitIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T01:23:01.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:23:01.444Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T01:22:46.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:22:46.983Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T01:22:31.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:22:31.959Z"
             },
             {
               "$type": "Document",
@@ -234,8 +223,7 @@
               "RelativeToolTip": "Controllers\\NmitHomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:21:43.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:21:43.288Z"
             },
             {
               "$type": "Document",
@@ -247,8 +235,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:21:32.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:21:32.449Z"
             }
           ]
         }

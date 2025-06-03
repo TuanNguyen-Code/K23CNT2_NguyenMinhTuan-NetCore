@@ -1,0 +1,57 @@
+﻿@model Lession07.Models.NmitEmployee
+
+<h4>NmitEmployee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NmitCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NmitId" class="control-label"></label>
+                <input asp-for="NmitId" class="form-control" />
+                <span asp-validation-for="NmitId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NmitName" class="control-label"></label>
+                <input asp-for="NmitName" class="form-control" />
+                <span asp-validation-for="NmitName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NmitBirthDay" class="control-label"></label>
+                <input asp-for="NmitBirthDay" class="form-control" />
+                <span asp-validation-for="NmitBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NmitEmail" class="control-label"></label>
+                <input asp-for="NmitEmail" class="form-control" />
+                <span asp-validation-for="NmitEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NmitPhone" class="control-label"></label>
+                <input asp-for="NmitPhone" class="form-control" />
+                <span asp-validation-for="NmitPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NmitSalary" class="control-label"></label>
+                <input asp-for="NmitSalary" class="form-control" />
+                <span asp-validation-for="NmitSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NmitStatus" /> @Html.DisplayNameFor(model => model.NmitStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NmitIndex">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
