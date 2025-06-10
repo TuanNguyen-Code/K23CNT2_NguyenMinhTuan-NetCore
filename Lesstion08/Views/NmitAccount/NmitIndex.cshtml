@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Lesstion08.Models.NmitAccount>
+
+@{
+    ViewData["Title"] = "NmitIndex";
+}
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Danh Sách Tài Khoản</h2>
+        <a asp-action="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Thêm mới
+        </a>
+    </div>
+</div>
+<p>
+    <a asp-action="NmitCreate">Create New</a>
+</p>
+<table class="table table-bordered table-striped align-middle">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Avarta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NmitFacebook)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Avarta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitBirthDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NmitFacebook)
+            </td>
+                <td class="text-center">
+                @Html.ActionLink("Edit", "NmitEdit", new { id=item.Id }) 
+                    @Html.ActionLink("Details", "NmitDetails", new { id = item.Id }) 
+                    @Html.ActionLink("Delete", "NmitDelete", new { id = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
