@@ -1,0 +1,45 @@
+﻿@model Lab11_LastLession.Models.NmitEmployee
+
+@{
+    ViewData["Title"] = "NmitDelete";
+}
+
+<h1>Xóa Nhân Viên</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NmitEmployee</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmitEmpName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmitEmpName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmitEmpLevel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmitEmpLevel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmitEmpStartDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmitEmpStartDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmitEmpStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmitEmpStatus)
+        </dd>
+    </dl>
+    
+    <form asp-action="NmitDelete">
+        <input type="hidden" asp-for="NmitEmpId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="NmitIndex">Back to List</a>
+    </form>
+</div>

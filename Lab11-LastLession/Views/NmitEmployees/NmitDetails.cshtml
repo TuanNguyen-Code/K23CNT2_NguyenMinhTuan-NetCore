@@ -1,0 +1,42 @@
+﻿@model Lab11_LastLession.Models.NmitEmployee
+
+@{
+    ViewData["Title"] = "NmitDetails";
+}
+
+<h1>Thông Tin Nhân Viên Chi Tiết</h1>
+
+<div>
+    <h4>NmitEmployee</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmitEmpName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmitEmpName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmitEmpLevel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmitEmpLevel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmitEmpStartDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmitEmpStartDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NmitEmpStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NmitEmpStatus)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="NmitEdit" asp-route-id="@Model?.NmitEmpId">Edit</a> |
+    <a asp-action="NmitIndex">Back to List</a>
+</div>
